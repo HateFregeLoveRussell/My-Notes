@@ -1,0 +1,1 @@
+{state: <%tp.system.suggester(["true", "false"], [true, false],false, "Pick the validity state of this object")%>, template: {name: validity-obj, version: 1}}

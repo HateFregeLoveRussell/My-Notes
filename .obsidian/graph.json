@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "P-DS-1",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#StubNote",
+      "color": {
+        "a": 1,
+        "rgb": 4274746
+      }
+    },
+    {
+      "query": "tag:#RepoNote",
+      "color": {
+        "a": 1,
+        "rgb": 13395748
+      }
+    },
+    {
+      "query": "tag:#EntryNote",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "tag:#problem",
+      "color": {
+        "a": 1,
+        "rgb": 14362921
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 0.98046875,
+  "lineSizeMultiplier": 1.69505208333333,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.7893690582505738,
+  "close": false
+}
