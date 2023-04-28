@@ -3253,8 +3253,8 @@ BibSource ^1FTUEh0o
 		},
 		{
 			"type": "arrow",
-			"version": 1117,
-			"versionNonce": 341843654,
+			"version": 1119,
+			"versionNonce": 1421308870,
 			"isDeleted": false,
 			"id": "XKI7Ho6RFTAnZF176Sudu",
 			"fillStyle": "hachure",
@@ -3275,7 +3275,7 @@ BibSource ^1FTUEh0o
 				"type": 2
 			},
 			"boundElements": null,
-			"updated": 1682559422281,
+			"updated": 1682559891500,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3322,10 +3322,10 @@ BibSource ^1FTUEh0o
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1025.7648944853404,
-		"scrollY": 1298.0375332247252,
+		"scrollX": 1316.5982278186782,
+		"scrollY": 2228.9923943358326,
 		"zoom": {
-			"value": 0.9000000000000001
+			"value": 0.44999999999999984
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

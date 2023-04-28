@@ -1,7 +1,7 @@
 ---
 type: Academic
 tags: [Entrynote]
-alias: Gi-1
+alias: Gi-1-Portal
 class: {class-name: "The Git and Github Bootcamp", instructor: "Colt Steele", medium: Online Course, start-date: 2023-04-25, online-platform: Udemy, length: 17 hours, class-alias: Gi-1, template: {name: class-online-course-obj, version: 1}}
 relationship: {name: standard-relationship-obj, version: 1}
 parent: ["[[Git 1 Dictionary]]","[[Git 1 Display Portal]]","[[Git 1 Bibliography]]"]
@@ -11,6 +11,10 @@ valitiy: {state: true, template: {name: validity-obj, version: 1}}
 template: {name: Class-Portal, version: 2} 
 ---
 ### Class Description:
+```dataview
+TABLE class
+WHERE file = this.file
+```
 
 ```dataview
 TABLE class.class-name AS "Class Name", class.instructor AS "Class Author", class.medium AS "Class Medium", class.length AS "Class Length"

@@ -4,6 +4,7 @@
 	candidates = candidates.filter(x => ("class" in app.metadataCache.getFileCache(x).frontmatter))
 	candidates = candidates.filter(x => app.metadataCache.getFileCache(x).frontmatter.class !== null)
 	candidates = candidates.filter(x => !x.path.startsWith("Templates"))
+	candidates = candidates.filter(x => typeof(app.metadataCache.getFileCache(x).frontmatter.class) != `string`)
 	console.log(candidates)
 	candidates = candidates.filter(x => "class-alias" in app.metadataCache.getFileCache(x).frontmatter.class)
 	console.log(candidates)
