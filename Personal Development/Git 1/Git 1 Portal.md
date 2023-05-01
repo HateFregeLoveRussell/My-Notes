@@ -11,17 +11,13 @@ valitiy: {state: true, template: {name: validity-obj, version: 1}}
 template: {name: Class-Portal, version: 2} 
 ---
 ### Class Description:
-```dataview
-TABLE class
-WHERE file = this.file
-```
 
 ```dataview
 TABLE class.class-name AS "Class Name", class.instructor AS "Class Author", class.medium AS "Class Medium", class.length AS "Class Length"
 WHERE file = this.file
 ```
 
-Comprehensive Introduction to version control through Git and a variety of topics centered around collaborative workflows with GitHub. Course was half-completed in the past(roughly until the beginning of section 11), with notes being written on paper. The contents present here will include transcribed notes from physical note-base alongside new content from progressing through the course.  
+Comprehensive Introduction to version control through Git and a variety of topics cantered around collaborative workflows with GitHub. Course was half-completed in the past(roughly until the beginning of section 11), with notes being written on paper. The contents present here will include transcribed notes from physical note-base alongside new content from progressing through the course.  
 
 ### Class Content:
 
@@ -47,3 +43,17 @@ Comprehensive Introduction to version control through Git and a variety of topic
 - Section 20: Writing Custom Git Aliases
 
 ### Class Progress: 
+
+##### In Progress Notes
+```dataview
+LIST 
+FROM "Personal Development/Git 1"
+WHERE status.state = "In Progress" 
+```
+
+
+
+
+
+
+
