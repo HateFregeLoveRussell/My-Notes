@@ -10,7 +10,6 @@ template: {name: class-dict-temnplate, version: 1}
 ---
 
 ### Version Control Software 
-
 ##### Description:
 A piece of software used in tracking and managing changes made to files over time
 - Source Alias: Sec2-Gi-1
@@ -19,7 +18,6 @@ A piece of software used in tracking and managing changes made to files over tim
 - [[What is Git]]
 
 ### Working Directory
-
 ##### Description
 The location in the system file directory that the terminal is currently viewing
 - Source Alias: Sec3-Gi-1
@@ -29,7 +27,6 @@ The location in the system file directory that the terminal is currently viewing
 - [[Git Configuration Commands]]
 
 ### Commit
-
 ##### Description
 A Commit in git is a snapshot of a repo which has been saved and can be visited. Every Commit in a repository has a string parameter summarizing the changes made in it.
 
@@ -40,7 +37,6 @@ A Commit in git is a snapshot of a repo which has been saved and can be visited.
 - [[Git 1 Dictionary#Staging Area|Staging Area]]
 
 ### Staging Area
-
 ##### Description
 The Staging Area in Git is a sort of middle ground between repository data and the [[Git 1 Dictionary#Working Directory|Working Directory]]. Any change that you wish to be saved as repository data must pass through the Staging Area before being saved through a [[Git 1 Dictionary#Commit|Commit]]. 
 
@@ -49,3 +45,7 @@ The Staging Area in Git is a sort of middle ground between repository data and t
 
 ##### See Also
 - [[Git 1 Dictionary#Commit|Commit]]
+
+### Atomic Commits 
+##### Description
+Atomic Commits is a heuristic approach to version control where each [[Git 1 Dictionary#Commit|Commit]] is focused around changes around the same subject.

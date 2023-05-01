@@ -27,5 +27,9 @@ Every Commit in git needs a message summarizing the changes made. When run in it
 
 The Commit Message can be added as a string in the terminal argument when using the flag `-m`. So the schema follows: `git commit -m "My Message"`.
 
+It is good practice to write commit messages in present-tense not past-tense. Consistency using the same tense is more important however.
+
+With the `--amend` flag in the form `git commit --amend` allows the user to amend their previous commit. The staging area can be modified and then committed again.
+
 #### git log
-This command will print a log of all [[Git 1 Dictionary#Commit|Commits]] in the repository.
+This command will print a log of all [[Git 1 Dictionary#Commit|Commits]] in the repository. The flag `--oneline` will print an abbreviated version of the log instead of the full one.

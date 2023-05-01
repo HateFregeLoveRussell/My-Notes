@@ -20,6 +20,7 @@ This command will return the system's configured git username. when used in the 
 This command works identically to `git config user.name`. When used in its ordinary form it will return the configured email for git in the system. When used through the scheme `git config --global user.email <email>` it will set the system git email to `email`
 
 #### git config core.editor
+`git config --global core.editor "code --wait"` will set the default editor for commit messages to VS Code.
 
 #### git status
 This command prints information on the state of the repository (or the lack of one) in the working directory.

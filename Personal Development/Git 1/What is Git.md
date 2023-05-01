@@ -11,3 +11,5 @@ template: {name: class-note-temnplate, version: 1}
 ---
 
 Git is defined as a "Version Control System" or "Version Control Manager" (VSM), a form of software which tracks and manages changes to files over time.
+
+The Documentation for Git can be found at [git_scm.com]
