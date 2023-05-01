@@ -18,10 +18,34 @@ A piece of software used in tracking and managing changes made to files over tim
 ##### Referenced In:
 - [[What is Git]]
 
-### Entry 2
+### Working Directory
 
 ##### Description
+The location in the system file directory that the terminal is currently viewing
+- Source Alias: Sec3-Gi-1
 
 ##### Referenced In
+- [[Unix Type Commands]]
+- [[Git Configuration Commands]]
+
+### Commit
+
+##### Description
+A Commit in git is a snapshot of a repo which has been saved and can be visited. Every Commit in a repository has a string parameter summarizing the changes made in it.
+
+##### Referenced In
+- [[Git Snapshot Commands]]
+
+##### See Also 
+- [[Git 1 Dictionary#Staging Area|Staging Area]]
+
+### Staging Area
+
+##### Description
+The Staging Area in Git is a sort of middle ground between repository data and the [[Git 1 Dictionary#Working Directory|Working Directory]]. Any change that you wish to be saved as repository data must pass through the Staging Area before being saved through a [[Git 1 Dictionary#Commit|Commit]]. 
+
+##### Referenced In
+- [[Git Snapshot Commands]]
 
 ##### See Also
+- [[Git 1 Dictionary#Commit|Commit]]
