@@ -6,7 +6,7 @@ class: {"class-name":"The Git and Github Bootcamp","instructor":"Colt Steele","m
 source: {link: "[[Git 1 Bibliography#Section 4: The Very Basics of Git: Adding & Committing]]", alias: Sec4-Gi-1, template: {name: bib-source-obj , version: 1}}
 relationship: {name: standard-relationship-obj, version: 1}
 friends: "[[Git Configuration Commands]]"
-status: {state: In Progress, template: {name: status-obj, version: 1}}
+status: {state: Completed, template: {name: status-obj, version: 1}}
 validity:  {state: true, template: {name: validity-obj, version: 1}}
 template: {name: class-note-temnplate, version: 1}
 ---

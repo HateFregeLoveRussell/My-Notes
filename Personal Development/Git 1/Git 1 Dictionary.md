@@ -49,3 +49,55 @@ The Staging Area in Git is a sort of middle ground between repository data and t
 ### Atomic Commits 
 ##### Description
 Atomic Commits is a heuristic approach to version control where each [[Git 1 Dictionary#Commit|Commit]] is focused around changes around the same subject.
+
+### Branches
+##### Description
+A Branch is a work context in which git can operate in. Git can support multiple branches and switch between them while preserving content. 
+
+##### Referenced In
+- [[Git Branches]]
+
+##### See Also
+- [[Git 1 Dictionary#Master Branch|Master Branch]]
+
+### Master Branch
+##### Description
+The Master Branch is a [[Git 1 Dictionary#Branches|Branch]] in which git commits to by default. In GitHub, has renamed this branch to "Main".
+
+##### Referenced In
+- [[Git Branches]]
+
+##### See Also
+- [[Git 1 Dictionary#Branches|Branches]]
+
+### Branch Tip
+##### Description
+The Branch Tip refers to the most recent commit in a given [[Git 1 Dictionary#Branches|Branch]].
+
+##### Referenced In
+- [[Git Branches]]
+
+##### See Also
+- [[Git 1 Dictionary#Branch Pointer|Branch Pointer]]
+
+### Branch Pointer
+##### Description
+The Branch Pointer is a pointer present in every [[Git 1 Dictionary#Branches|Branch]] which points to the current [[Git 1 Dictionary#Branch Tip|Branch Tip]].
+
+##### Referenced In
+- [[Git Branches]]
+
+##### See Also
+- [[Git 1 Dictionary#Branch Tip|Branch Tip]]
+- [[Git 1 Dictionary#HEAD Pointer|HEAD Pointer]]
+
+### HEAD Pointer
+##### Description
+The HEAD Pointer is a pointer which is used to describe the current branch occupied. It will point to the [[Git 1 Dictionary#Branch Tip|Branch Tip]] of the branch being worked on.
+
+##### Referenced In
+- [[Git Branches]]
+
+##### See Also
+- [[Git 1 Dictionary#Branch Pointer|Branch Pointer]]
+- [[Git 1 Dictionary#Branch Tip|Branch Tip]]
