@@ -4,7 +4,7 @@ tags: [Bib, RepoNote]
 alias: Gi-1-Bib
 class: {"class-name":"The Git and Github Bootcamp","instructor":"Colt Steele","medium":"Online Course","start-date":"2023-04-25","online-platform":"Udemy","length":"17 hours","class-alias":"Gi-1","template":{"name":"class-online-course-obj","version":1}}
 relationship: 
-source: [{type: video, date-viewed: 2023-04-30, title: "Section 2 Introducing... Git", class-alias: Gi-1, source-alias: Sec2-Gi-1, template: {name: source-video-obj, version: 1}}, {type: video, date-viewed: 2023-04-30, title: "Section 3 Installation & Setup", class-alias: Gi-1, source-alias: Sec3-Gi-1, template: {name: source-video-obj, version: 1}}, {type: video, date-viewed: 2023-05-01, title: "Section 4 The Very Basics of Git: Adding and Committing", class-alias: Gi-1, source-alias: Sec4-Gi-1, template: {name: source-video-obj, version: 1}}, {type: video, date-viewed: 2023-05-01, title: "Section 5 Commits in Detail (And Related Topics)", class-alias: Gi-1, source-alias: Sec5-Gi-1, template: {name: source-video-obj, version: 1}}, {type: video, date-viewed: 2023-05-01, title: "Section 6 Working With Branches", class-alias: Gi-1, source-alias: Sec6-Gi-1, template: {name: source-video-obj, version: 1}}]
+source: [{type: video, date-viewed: 2023-04-30, title: "Section 2 Introducing... Git", class-alias: Gi-1, source-alias: Sec2-Gi-1, template: {name: source-video-obj, version: 1}}, {type: video, date-viewed: 2023-04-30, title: "Section 3 Installation & Setup", class-alias: Gi-1, source-alias: Sec3-Gi-1, template: {name: source-video-obj, version: 1}}, {type: video, date-viewed: 2023-05-01, title: "Section 4 The Very Basics of Git: Adding and Committing", class-alias: Gi-1, source-alias: Sec4-Gi-1, template: {name: source-video-obj, version: 1}}, {type: video, date-viewed: 2023-05-01, title: "Section 5 Commits in Detail (And Related Topics)", class-alias: Gi-1, source-alias: Sec5-Gi-1, template: {name: source-video-obj, version: 1}}, {type: video, date-viewed: 2023-05-01, title: "Section 6 Working With Branches", class-alias: Gi-1, source-alias: Sec6-Gi-1, template: {name: source-video-obj, version: 1}}, {type: video, date-viewed: 2023-05-03, title: "Section 7 Merging Branches, Oh Boy!", class-alias: Gi-1, source-alias: Sec7-Gi-1, template: {name: source-video-obj, version: 1}}]
 status: {state: In Progress, template: {name: status-obj, version: 1}}
 validity:  {state: true, template: {name: validity-obj, version: 1}}
 template: {name: class-note-temnplate, version: 1}
@@ -41,3 +41,9 @@ template: {name: class-note-temnplate, version: 1}
 - Date Viewed: unknown, current date put
 - Title: Working With Branches
 - Metadata Alias: Sec6-Gi-1
+
+#### Section 7: Merging Branches, Oh Boy!
+- Type: Video Section
+- Date Viewed: unknown, current date put
+- Title: Merging Branches, Oh Boy!
+- Metadata Alias: Sec7-Gi-1
