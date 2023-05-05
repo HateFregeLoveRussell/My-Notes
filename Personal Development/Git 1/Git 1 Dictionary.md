@@ -159,3 +159,6 @@ A Conflict Marker are a series of markers that are edited into conflicting file 
 
 #### See Also
 - [[Git 1 Dictionary#Merge Conflict|Merge Conflict]]
+
+#todo
+### Diff Markers

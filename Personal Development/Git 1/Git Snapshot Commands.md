@@ -3,7 +3,7 @@ type: Academic
 tags:
 alias: Gi-1-SnapComm
 class: {"class-name":"The Git and Github Bootcamp","instructor":"Colt Steele","medium":"Online Course","start-date":"2023-04-25","online-platform":"Udemy","length":"17 hours","class-alias":"Gi-1","template":{"name":"class-online-course-obj","version":1}}
-source: [{link: "[[Git 1 Bibliography#Section 4: The Very Basics of Git: Adding & Committing]]", alias: Sec4-Gi-1, template: {name: bib-source-obj , version: 1}}, {link: "[[Git 1 Bibliography#Section 5: Commits in Detail (And Related Topics)]]", alias: Sec5-Gi-1, template: {name: bib-source-obj , version: 1}}, {link: [[Git 1 Bibliography#Section 6: Working With Branches]], alias: Sec6-Gi-1, template: {name: bib-source-obj , version: 1}}]
+source: [{link: "[[Git 1 Bibliography#Section 4: The Very Basics of Git: Adding & Committing]]", alias: Sec4-Gi-1, template: {name: bib-source-obj , version: 1}}, {link: "[[Git 1 Bibliography#Section 5: Commits in Detail (And Related Topics)]]", alias: Sec5-Gi-1, template: {name: bib-source-obj , version: 1}}, {link: [[Git 1 Bibliography#Section 6: Working With Branches]], alias: Sec6-Gi-1, template: {name: bib-source-obj , version: 1}}, {link: "[[Git 1 Bibliography#Section 8: Comparing Changes With Git Diff]]", alias: Sec8-Gi-1, template: {name: bib-source-obj , version: 1}}]
 relationship: {name: standard-relationship-obj, version: 1}
 friends: "[[Git Configuration Commands]]"
 status: {state: In Progress, template: {name: status-obj, version: 1}}
@@ -32,5 +32,7 @@ It is good practice to write commit messages in present-tense not past-tense. Co
 With the `--amend` flag in the form `git commit --amend` allows the user to amend their previous commit. The staging area can be modified and then committed again.
 
 When the `-a` flag is used git will commit all file changes and removals that have not been staged, new files will be unaffected. 
+
+The `-a` and `-m` flags for this command can be both included by using the `-am` flag.
 #### git log
 This command will print a log of all [[Git 1 Dictionary#Commit|Commits]] in the repository. The flag `--oneline` will print an abbreviated version of the log instead of the full one.
