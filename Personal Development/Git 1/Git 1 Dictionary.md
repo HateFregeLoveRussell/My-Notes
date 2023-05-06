@@ -100,8 +100,8 @@ The Branch Pointer is a pointer present in every [[Git 1 Dictionary#Branches|Bra
 
 ### HEAD Pointer
 ##### Description
-The HEAD Pointer is a pointer which is used to describe the current branch occupied. It will point to the [[Git 1 Dictionary#Branch Tip|Branch Tip]] of the branch being worked on.
-- Source Alias: Sec6-Gi-1
+The HEAD Pointer is a pointer which is used to describe the current branch occupied. It will point to the [[Git 1 Dictionary#Branch Tip|Branch Tip]] of the branch being worked on. You can reference commits before the commit pointed to by HEAD using the following notation: `HEAD~<Number of commits before HEAD>`
+- Source Alias: Sec6-Gi-1, Sec10-Gi-1
 
 ##### Referenced In
 - [[Git Branches]]
@@ -164,6 +164,18 @@ A Conflict Marker are a series of markers that are edited into conflicting file 
 ### Stashing
 ##### Description
 Stashing refers to a feature in git where changes can be saved without needing a [[Git 1 Dictionary#Commit|Commit]]. This feature exists so that a user is not forced to commit unnecessarily when switching [[Git 1 Dictionary#Branches|Branches]].
+- Source Alias: Sec9-Gi-1
 
 ##### Referenced In
 - [[Git Stashing]]
+
+### Detached HEAD State
+##### Description
+This term refers to a state in git where the [[Git 1 Dictionary#HEAD Pointer|HEAD pointer]] no longer points to any [[Git 1 Dictionary#Branch Pointer|Branch Pointer]]. This is often achieved when using the [[Git Branching Commands#git checkout|git checkout]] command. To "re-attach" the HEAD pointer one must switch to any branch using [[Git Branching Commands#git switch|git switch]].
+- Source Alias: Sec10-Gi-1
+
+##### Referenced In
+- [[Git Branching Commands]]
+
+##### See Also
+- [[Git 1 Dictionary#HEAD Pointer|HEAD Pointer]]
