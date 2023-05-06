@@ -160,5 +160,10 @@ A Conflict Marker are a series of markers that are edited into conflicting file 
 #### See Also
 - [[Git 1 Dictionary#Merge Conflict|Merge Conflict]]
 
-#todo
-### Diff Markers
+
+### Stashing
+##### Description
+Stashing refers to a feature in git where changes can be saved without needing a [[Git 1 Dictionary#Commit|Commit]]. This feature exists so that a user is not forced to commit unnecessarily when switching [[Git 1 Dictionary#Branches|Branches]].
+
+##### Referenced In
+- [[Git Stashing]]
