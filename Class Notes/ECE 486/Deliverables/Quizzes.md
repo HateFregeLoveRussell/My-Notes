@@ -2,7 +2,7 @@
 type: Academic
 tags: 
 alias: ECE-486-Quizes
-deliverable: {type: Quiz, total-grade: 20, due: "EOT", template: {name: aggregate-deliverable-obj, version: 1}}}
+deliverable: {type: Quiz, total-grade: 20, due: "EOT", template: {name: aggregate-deliverable-obj, version: 1}}
 class: {"class-name":"Robot Dynamics And Control","instructor":"Brandon J. DeHart","medium":"In-Person","start-date":"2023-05-08","university":"University of Waterloo","class-alias":"ECE-486","template":{"name":"class-uni-obj","version":1}}
 relationship: 
 status: {state: In Progress, template: {name: status-obj, version: 1}}

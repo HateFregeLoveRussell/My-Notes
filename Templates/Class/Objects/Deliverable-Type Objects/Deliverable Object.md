@@ -1,5 +1,5 @@
 <%*
-type = await tp.system.suggester(["HW", "Assignment", "Project", "Lab", "Quiz"],["HW", "Assignment", "Project", "Lab", "Quiz"],false)
+type = await tp.system.suggester(["HW", "Assignment", "Project", "Lab", "Quiz", "Exam"],["HW", "Assignment", "Project", "Lab", "Quiz", "Exam"],false)
 tR += `{type: ${type}, `
 if (type != "HW") {
 	decision = await tp.system.suggester(["standard", "non-standard"],["standard", "non-standard"],false)
