@@ -9,9 +9,12 @@
 	candidates = candidates.filter(x => "class-alias" in app.metadataCache.getFileCache(x).frontmatter.class)
 	console.log(candidates)
 	candidates = candidates.filter(x => app.metadataCache.getFileCache(x).frontmatter.class["class-alias"] === alias)
+	console.log(candidates)
 	if (candidates.isEmpty) {console.log("Empty Candidates")}
 	if (!candidates.isEmpty) {
 		let fm =  app.metadataCache.getFileCache(candidates[0]).frontmatter["class"]
-		await update("class", JSON.stringify(fm),tp.file.find_tfile(tp.file.title))
+		console.log(fm)
+		//await update("class", JSON.stringify(fm),tp.file.find_tfile(tp.file.title))
+		tR += JSON.stringify(fm)
 	} 
 _%>

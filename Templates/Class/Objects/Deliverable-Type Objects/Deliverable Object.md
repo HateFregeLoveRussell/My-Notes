@@ -1,17 +1,13 @@
 <%*
-type = await tp.system.suggester(["HW", "Assignment", "Project", "Lab"],["HW", "Assignment", "Project", "Lab"],false)
+type = await tp.system.suggester(["HW", "Assignment", "Project", "Lab", "Quiz"],["HW", "Assignment", "Project", "Lab", "Quiz"],false)
 tR += `{type: ${type}, `
 if (type != "HW") {
 	decision = await tp.system.suggester(["standard", "non-standard"],["standard", "non-standard"],false)
 	tR += `grading: ${decision}, `
-	if (decision === "standard") {
-		tR += `weight: ` _%>
+	tR += `weight: ` _%>
 	<%_tp.file.cursor()_%>
 <%_*
-	}
-	if (decision === "standard") {
-		tR += `, `
-	}
+	tR += `, `	
 } 
 tR += `due: `
 _%>

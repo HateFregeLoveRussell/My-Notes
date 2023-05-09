@@ -14,6 +14,9 @@ template: {name: class-deliverable-template, version: 1}
 
 - [ ] Parent Task
 
+### Notes:
+
+- Notes for future reference
 
 ### Thinking:
 
