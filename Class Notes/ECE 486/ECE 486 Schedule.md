@@ -20,25 +20,28 @@ SORT deliverable.due ASC
 ### Class Deliverables:
 ##### Class Project
 ```dataview
-TABLE deliverable.Report-Due AS "Report Due", deliverable.Grading-Starts AS "Grading Starts", deliverable.weight + "%" AS "Weight"
+TABLE deliverable.Report-Due AS "Report Due", deliverable.Grading-Starts AS "Grading Starts", deliverable.weight + "%" AS "Weight", status.state AS "State"
 FROM "Class Notes/ECE 486/Deliverables/Course Project"
-WHERE status.state != "Completed"
+WHERE deliverable.type = "Project"
 SORT deliverable.due.Report-Due ASC
 ```
+
 ##### Class Quizzes
 ```dataview
-TABLE deliverable.due AS "Due Date", deliverable.weight + "%" AS "Weight"
+TABLE deliverable.due AS "Due Date", deliverable.weight + "%" AS "Weight", status.state AS "State"
 FROM "Class Notes/ECE 486/Deliverables/Quizzes"
-WHERE status.state != "Completed"
+WHERE deliverable.type = "Quiz"
 SORT deliverable.due ASC
 ```
+
 ##### Class Labs
 ```dataview 
-TABLE deliverable.due AS "Due Date", deliverable.weight + "%" AS "Weight"
+TABLE deliverable.due AS "Due Date", deliverable.weight + "%" AS "Weight", status.state AS "State"
 FROM "Class Notes/ECE 486/Deliverables/Labs"
-WHERE status.state != "Completed"
+WHERE deliverable.type = "Lab"
 SORT deliverable.due ASC
 ```
+
 
 
 
