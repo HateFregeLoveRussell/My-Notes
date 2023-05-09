@@ -11,7 +11,7 @@ template: {name: class-sched-template, version: 1}
 ### Upcoming Content:
 ##### Deliverables
 ```dataview
-TABLE deliverable.due AS "Due Date", deliverable.weight + "%" AS "Weight", status.state AS "State"
+TABLE deliverable.due AS "Due Date",deliverable.Report-Due as "Report Due", deliverable.weight + "%" AS "Weight", status.state AS "State"
 FROM "Class Notes/ECE 486/Deliverables"
 WHERE date(deliverable.due) - date(today) < dur("3 weeks")  AND typeof(deliverable.due) != "obj" AND deliverable.due != "EOT"
 SORT deliverable.due ASC

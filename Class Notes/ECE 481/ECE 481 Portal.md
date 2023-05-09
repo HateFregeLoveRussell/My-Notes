@@ -4,7 +4,7 @@ tags: [Entrynote]
 alias: ECE-481-Portal
 class: {class-name: "Digital Control Systems", instructor: "Dr. Yash Vardhan Pant", medium: "In Person", start-date: 2023-05-08, university: "University of Waterloo", class-alias: ECE-481, template: {name: class-uni-obj, version: 1}}
 relationship: 
-parent: ["[[Class-Sched]]","[[Class-Display-Portal]]","[[Class-Bibliography]]"]
+parent: ["[[Class-Sched]]","[[Class-Display-Portal]]","[[ECE 481 Schedule]]"]
 class-status: {state: In Progress, template: {name: status-obj, version: 1}}
 status: {state: Completed, template: {name: status-obj, version: 1}}
 valitiy: {state: true, template: {name: validity-obj, version: 1}}
