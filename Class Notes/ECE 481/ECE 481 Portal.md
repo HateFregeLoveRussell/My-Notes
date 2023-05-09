@@ -6,7 +6,7 @@ class: {class-name: "Digital Control Systems", instructor: "Dr. Yash Vardhan Pan
 relationship: 
 parent: ["[[Class-Sched]]","[[Class-Display-Portal]]","[[Class-Bibliography]]"]
 class-status: {state: In Progress, template: {name: status-obj, version: 1}}
-status: {state: In Progress, template: {name: status-obj, version: 1}}
+status: {state: Completed, template: {name: status-obj, version: 1}}
 valitiy: {state: true, template: {name: validity-obj, version: 1}}
 template: {name: Class-Portal, version: 2} 
 ---
@@ -43,3 +43,28 @@ Knock on door if closed
 - **8. Optimization-based control of constrained systems:** Introduction to optimal control, effect of constraints, Model Predictive Control.
 
 ### Class Progress: 
+##### Incomplete Notes
+```dataview
+TABLE status.state AS "State"
+FROM "Class Notes/ECE 481"
+WHERE status.state != "Completed" AND deliverable = null
+```
+##### Completed Notes 
+```dataview
+TABLE status.state AS "State"
+FROM "Class Notes/ECE 481"
+WHERE status.state = "Completed" AND deliverable = null
+```
+##### Incomplete Deliverables
+```dataview
+TABLE status.state AS "State"
+FROM "Class Notes/ECE 481"
+WHERE status.state != "Completed" AND deliverable != null
+```
+
+##### Completed Deliverables
+```dataview
+TABLE status.state AS "State"
+FROM "Class Notes/ECE 481"
+WHERE status.state = "Completed" AND deliverable != null
+```

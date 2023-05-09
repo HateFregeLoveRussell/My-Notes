@@ -6,7 +6,7 @@ class: {class-name: "Robot Dynamics And Control", instructor: "Brandon J. DeHart
 relationship: 
 parent: ["[[Class-Sched]]","[[Class-Display-Portal]]","[[ECE 486 Schedule]]"]
 class-status: {state: In Progress, template: {name: status-obj, version: 1}}
-status: {state: In Progress, template: {name: status-obj, version: 1}}
+status: {state: Completed, template: {name: status-obj, version: 1}}
 valitiy: {state: true, template: {name: validity-obj, version: 1}}
 template: {name: Class-Portal, version: 2} 
 ---
@@ -53,3 +53,31 @@ The Class Project consists of 6 deliverables, each of which have a coding and a 
 	- Chapter 13: Wheeled Mobile Robots
 
 ### Class Progress: 
+##### Incomplete Notes
+
+```dataview
+TABLE status.state AS "State"
+FROM "Class Notes/ECE 486"
+WHERE status.state != "Completed" AND deliverable = null
+```
+##### Completed Notes
+```dataview
+TABLE status.state AS "State"
+FROM "Class Notes/ECE 486"
+WHERE status.state = "Completed" AND deliverable = null
+```
+
+##### Incomplete Deliverables
+
+```dataview
+TABLE status.state AS "State"
+FROM "Class Notes/ECE 486"
+WHERE status.state != "Completed" AND deliverable != null
+```
+##### Completed Deliverables
+
+```dataview
+TABLE status.state AS "State"
+FROM "Class Notes/ECE 486"
+WHERE status.state = "Completed" AND deliverable != null
+```
