@@ -1,0 +1,27 @@
+---
+type: Academic
+tags: 
+alias: ECE-481-Labs
+deliverable: {type: Lab, total-grade: 25, due: "EOT", template: {name: aggregate-deliverable-obj, version: 1}}
+class: {"class-name":"Digital Control Systems","instructor":"Dr. Yash Vardhan Pant","medium":"In Person","start-date":"2023-05-08","university":"University of Waterloo","class-alias":"ECE-481","template":{"name":"class-uni-obj","version":1}}
+relationship: 
+status: {state: Stub, template: {name: status-obj, version: 1}}
+validity: {state: true, template: {name: validity-obj, version: 1}}
+template: {name: class-deliverable-template, version: 1}
+---
+
+### WBS: 
+
+- [ ] Labs
+	- [ ] [[Lab 1|ECE-481-Lab1]]
+	- [ ] [[Class Notes/ECE 481/Deliverables/Labs/Lab 2|ECE-481-Lab2]]
+	- [ ] [[Class Notes/ECE 481/Deliverables/Labs/Lab 3|ECE-481-Lab3]]
+	- [ ] [[Controller Demo|ECE-481-ControllerDemo]]
+
+### Notes:
+
+- Notes for future reference
+
+### Thinking:
+
+- Problem(s) reference goes here (use a Problem note if scope large)

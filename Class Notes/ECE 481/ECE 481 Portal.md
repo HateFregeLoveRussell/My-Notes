@@ -2,7 +2,7 @@
 type: Academic
 tags: [Entrynote]
 alias: ECE-481-Portal
-class: {class-name: "Digital Signal Processing", instructor: "Dr. Yash Vardhan Pant", medium: "In Person", start-date: 2023-05-08, university: "University of Waterloo", class-alias: ECE-481, template: {name: class-uni-obj, version: 1}}
+class: {class-name: "Digital Control Systems", instructor: "Dr. Yash Vardhan Pant", medium: "In Person", start-date: 2023-05-08, university: "University of Waterloo", class-alias: ECE-481, template: {name: class-uni-obj, version: 1}}
 relationship: 
 parent: ["[[Class-Sched]]","[[Class-Display-Portal]]","[[Class-Bibliography]]"]
 class-status: {state: In Progress, template: {name: status-obj, version: 1}}
@@ -27,6 +27,10 @@ Phillips, H.T. Nagle, A. Chakraborty. is entirely optional, and the lectures are
 - Assignment 1 (weight:: 10%)
 - Assignment 2 (weight:: 10%)
 - Final Exam (weight:: 35%)
+
+##### Office Hours
+Tuesdays 4-5pm, E5-5114 starting May 16th
+Knock on door if closed
 
 ### Class Content:
 - **1. Introduction:** Motivated Examples, Introduction to Discrete-Time Control Systems and Sampled-Data Controlled Systems (1 lecture)
