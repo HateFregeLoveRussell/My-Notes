@@ -15,8 +15,8 @@ template: {name: class-deliverable-template, version: 1}
 
 - [ ] Class labs
 	- [ ] [[Lab 1 - Hello, Robot]]
-	- [ ] [[Lab 2]]
-	- [ ] [[Lab 3]]
+	- [ ] [[Class Notes/ECE 486/Deliverables/Labs/Lab 2|Lab 2]]
+	- [ ] [[Class Notes/ECE 486/Deliverables/Labs/Lab 3|Lab 3]]
 	- [ ] [[Lab 4]]
 	- [ ] [[Lab 5]]
 
