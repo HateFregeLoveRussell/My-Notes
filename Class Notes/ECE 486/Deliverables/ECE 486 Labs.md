@@ -14,11 +14,11 @@ template: {name: class-deliverable-template, version: 1}
 ### WBS: 
 
 - [ ] Class labs
-	- [ ] [[Lab 1 - Hello, Robot]]
-	- [ ] [[Class Notes/ECE 486/Deliverables/Labs/Lab 2|Lab 2]]
-	- [ ] [[Class Notes/ECE 486/Deliverables/Labs/Lab 3|Lab 3]]
-	- [ ] [[Lab 4]]
-	- [ ] [[Lab 5]]
+	- [ ] [[Lab 1 - Hello, Robot|ECE-486-Lab1]]
+	- [ ] [[Class Notes/ECE 486/Deliverables/Labs/Lab 3|ECE-486-Lab3]]
+	- [ ] [[Class Notes/ECE 486/Deliverables/Labs/Lab 3|ECE-486-Lab3]]
+	- [ ] [[Class Notes/ECE 486/Deliverables/Labs/Lab 4|ECE-486-Lab4]]
+	- [ ] [[Lab 5|ECE-486-Lab5]]
 
 
 ### Thinking:

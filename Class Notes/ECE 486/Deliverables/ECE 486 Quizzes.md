@@ -13,16 +13,16 @@ template: {name: class-deliverable-template, version: 1}
 ### WBS: 
 
 - [ ] Quizzes
-	- [ ] [[Quiz 1]]
-	- [ ] [[Quiz 2]]
-	- [ ] [[Quiz 3]]
-	- [ ] [[Quiz 4]]
-	- [ ] [[Quiz 5]]
-	- [ ] [[Quiz 6]]
-	- [ ] [[Quiz 7]]
-	- [ ] [[Quiz 8]]
-	- [ ] [[Quiz 9]]
-	- [ ] [[Quiz 10]]
+	- [ ] [[Class Notes/ECE 486/Deliverables/Quizzes/Quiz 1|ECE-486-Quiz1]]
+	- [ ] [[Class Notes/ECE 486/Deliverables/Quizzes/Quiz 2|ECE-486-Quiz2]]
+	- [ ] [[Class Notes/ECE 486/Deliverables/Quizzes/Quiz 3|ECE-486-Quiz3]]
+	- [ ] [[Quiz 4|ECE-486-Quiz4]]
+	- [ ] [[Quiz 5|ECE-486-Quiz5]]
+	- [ ] [[Quiz 6|ECE-486-Quiz6]]
+	- [ ] [[Quiz 7|ECE-486-Quiz7]]
+	- [ ] [[Quiz 8|ECE-486-Quiz8]]
+	- [ ] [[Quiz 9|ECE-486-Quiz9]]
+	- [ ] [[Quiz 10|ECE-486-Quiz10]]
 
 ### Notes:
 
