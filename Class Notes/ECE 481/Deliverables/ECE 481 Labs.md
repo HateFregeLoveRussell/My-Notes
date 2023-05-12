@@ -13,7 +13,7 @@ template: {name: class-deliverable-template, version: 1}
 ### WBS: 
 
 - [ ] Labs
-	- [ ] [[Lab 1|ECE-481-Lab1]]
+	- [ ] [[Class Notes/ECE 481/Deliverables/Labs/Lab 1|ECE-481-Lab1]]
 	- [ ] [[Class Notes/ECE 481/Deliverables/Labs/Lab 2|ECE-481-Lab2]]
 	- [ ] [[Class Notes/ECE 481/Deliverables/Labs/Lab 3|ECE-481-Lab3]]
 	- [ ] [[Controller Demo|ECE-481-ControllerDemo]]

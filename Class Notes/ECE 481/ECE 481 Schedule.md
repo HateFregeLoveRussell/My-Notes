@@ -1,3 +1,4 @@
+
 ---
 type: Academic
 tags: [Querynote, Reponote]

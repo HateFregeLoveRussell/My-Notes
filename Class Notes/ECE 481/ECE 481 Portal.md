@@ -4,7 +4,7 @@ tags: [Entrynote]
 alias: ECE-481-Portal
 class: {class-name: "Digital Control Systems", instructor: "Dr. Yash Vardhan Pant", medium: "In Person", start-date: 2023-05-08, university: "University of Waterloo", class-alias: ECE-481, template: {name: class-uni-obj, version: 1}}
 relationship: 
-parent: ["[[Class-Sched]]","[[Class-Display-Portal]]","[[ECE 481 Schedule]]"]
+parent: ["[[Class-Sched]]","[[Class-Display-Portal]]","[[ECE 481 Schedule]]", "[[ECE 481 Bibliography]]"]
 class-status: {state: In Progress, template: {name: status-obj, version: 1}}
 status: {state: Completed, template: {name: status-obj, version: 1}}
 valitiy: {state: true, template: {name: validity-obj, version: 1}}
@@ -32,6 +32,12 @@ Phillips, H.T. Nagle, A. Chakraborty. is entirely optional, and the lectures are
 Tuesdays 4-5pm, E5-5114 starting May 16th
 Knock on door if closed
 
+##### Lecture Material
+Lecture notes will be released at least one day prior to the lecture
+
+##### Assignment 
+The assignments of this class total 20% of the grade and resemble questions found both in the midterm and final. Assignments are subject to late-days with a 20% loss in maximum assignment mark for every day which it is late.
+
 ### Class Content:
 - **1. Introduction:** Motivated Examples, Introduction to Discrete-Time Control Systems and Sampled-Data Controlled Systems (1 lecture)
 - **2. Review of Signals, Systems and Analog Control:** BIBO Stability, Feedback Stability, Time-Domain Specifications, Stead-State Performance, Frequency-Domain Analysis. (2 lectures)
@@ -46,13 +52,14 @@ Knock on door if closed
 ##### Incomplete Notes
 ```dataview
 TABLE status.state AS "State"
-FROM "Class Notes/ECE 481"
+FROM "Class Notes/ECE 481/Notes" AND -"Class Notes/ECE 481/Figures"
 WHERE status.state != "Completed" AND deliverable = null
 ```
+
 ##### Completed Notes 
 ```dataview
 TABLE status.state AS "State"
-FROM "Class Notes/ECE 481"
+FROM "Class Notes/ECE 481/Notes" AND -"Class Notes/ECE 481/Figures"
 WHERE status.state = "Completed" AND deliverable = null
 ```
 ##### Incomplete Deliverables
