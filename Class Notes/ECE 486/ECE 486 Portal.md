@@ -15,7 +15,7 @@ template: {name: Class-Portal, version: 2}
 Introduction to the field of Robotics, with a focus on the mechanics and control of serial manipulators. First half is focused on modelling kinematics, latter half builds with generating trajectories, formulating dynamic equations, and using them in robot control. This class does include a lab section.
 
 ##### Textbook
-The class textbook is “Modern Robotics: Mechanics, Planning, and Control” by Professors Kevin Lynch and Frank Park. There is an expectation on the student to constantly read, and annotate the content on the Perusall platform prior to lectures.
+The class textbook is “Modern Robotics: Mechanics, Planning, and Control” by Professors Kevin Lynch and Frank Park. There is an expectation on the student to constantly read, and annotate the content on the Perusall platform prior to lectures, the videos on Perusall do not contribute to the Engagement mark. The Engagement mark for any given chapter is released after the Q&A Lecture. The "Advanced Topics" chapters reading all contribute to Engagement. 
 
 Additional resources can be found on the author's [website](http://modernrobotics.org/).
 
@@ -31,8 +31,14 @@ Quizzes occur on most Thursdays, once done, they will be redistributed randomly 
 ##### Labs
 Each lab will lose 20% of it's maximum mark per 24 hours it is late, even when at 0% maximum mark the lab must be submitted in order to pass. 
 
+##### Robot Availability 
+Mon 3-4:30 pm, Tue 1:30-4:30 pm, Fri 9:30-11:00 am
+
 ##### Class Project
 The Class Project consists of 6 deliverables, each of which have a coding and a report sub-deliverable. The "Report Due" deadline submission will give you initial partial feedback while the "Grading Starts" deadline acts as the grading deadline. Reports can be resubmitted until the later deadline. 
+
+##### Deadlines
+All deadlines at 9pm
 
 ### Class Content:
 - Chapter 2: Configuration Space

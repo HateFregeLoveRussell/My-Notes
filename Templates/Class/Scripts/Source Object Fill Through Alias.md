@@ -40,14 +40,14 @@ else {
 			if (fileSource.source != null) {
 				fileSource = fileSource.source
 				if(Array.isArray(fileSource)) {
-					await update("source",JSON.stringify(fileSource.push(fm)),file)
+					await update("source",JSON.stringify(fileSource.push(fm),null,2).replace(/"([^"]+)":/g, '$1:'),file)
 					new Notice (tp.file.title + " - Source Field Updated",4000)
 				} else {
-					await update("source",JSON.stringify(new Array(fileSource, fm)),file)
+					await update("source",JSON.stringify(new Array(fileSource, fm),null,2).replace(/"([^"]+)":/g, '$1:'),file)
 					new Notice (tp.file.title + " - Source Field Updated",4000)
 				}
 			} else {
-				await update("source", JSON.stringify(fm),file)
+				await update("source", JSON.stringify(fm,null,2).replace(/"([^"]+)":/g, '$1:'),file)
 				new Notice (tp.file.title + " - Source Field Added",4000)
 			}
 		} else {
@@ -61,6 +61,5 @@ else {
 		new Notice (tp.file.title + " - No Frontmatter Found",4000)
 	}
 }
-
 
 _%>

@@ -15,6 +15,6 @@
 		let fm =  app.metadataCache.getFileCache(candidates[0]).frontmatter["class"]
 		console.log(fm)
 		//await update("class", JSON.stringify(fm),tp.file.find_tfile(tp.file.title))
-		tR += JSON.stringify(fm)
+		tR += JSON.stringify(fm,null,2).replace(/"([^"]+)":/g, '$1:')
 	} 
 _%>
