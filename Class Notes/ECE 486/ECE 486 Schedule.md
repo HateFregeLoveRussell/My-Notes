@@ -4,16 +4,16 @@ tags: [Querynote, Reponote]
 alias: ECE-486-Sched
 class: 
 relationship: 
-status: {state: In Progress, template: {name: status-obj, version: 1}}
+status: {state: Completed, template: {name: status-obj, version: 1}}
 validity: {state: true, template: {name: validity-obj, version: 1}}
 template: {name: class-sched-template, version: 1} 
 ---
 ### Upcoming Content:
 ##### Deliverables
 ```dataview
-TABLE deliverable.due AS "Due Date",deliverable.Report-Due as "Report Due", deliverable.weight + "%" AS "Weight", status.state AS "State"
+TABLE deliverable.due AS "Due Date",deliverable.Report-Due as "Report Due", deliverable.weight + "%" AS "Weight", status.state AS "State", date(deliverable.due) - date(today) AS "Time Left"
 FROM "Class Notes/ECE 486/Deliverables"
-WHERE date(deliverable.due) - date(today) < dur("3 weeks")  AND typeof(deliverable.due) != "obj" AND deliverable.due != "EOT"
+WHERE date(deliverable.due) - date(today) < dur("3 weeks") AND date(deliverable.due) > date(today) AND typeof(deliverable.due) != "obj" AND deliverable.due != "EOT"
 SORT deliverable.due ASC
 ```
 
