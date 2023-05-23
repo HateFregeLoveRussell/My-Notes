@@ -2,7 +2,7 @@
 type: Academic
 tags: 
 alias: ECE-481-Lab2
-deliverable: {type: Lab, grading: standard, weight: 6, due: unknown, alias: ECE-481-L2, template: {name: deliverable-obj, version: 1}}
+deliverable: {type: Lab, grading: standard, weight: 6, due: 2023-07-05, alias: ECE-481-L2, template: {name: deliverable-obj, version: 1}}
 class: {"class-name":"Digital Control Systems","instructor":"Dr. Yash Vardhan Pant","medium":"In Person","start-date":"2023-05-08","university":"University of Waterloo","class-alias":"ECE-481","template":{"name":"class-uni-obj","version":1}}
 relationship: {name: deliverable-relationship-obj, version: 1}
 Sub-Deliverable: "[[ECE 481 Labs]]"

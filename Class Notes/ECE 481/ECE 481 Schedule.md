@@ -19,7 +19,6 @@ WHERE date(deliverable.due) - date(today) < dur("3 weeks")  AND typeof(deliverab
 SORT deliverable.due ASC
 ```
 
-
 ### Class Deliverables:
 ##### Class Labs
 ```dataview 
