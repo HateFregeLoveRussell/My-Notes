@@ -1,4 +1,5 @@
-<%_* let candidates = app.vault.getMarkdownFiles().filter(x => "frontmatter" in app.metadataCache.getFileCache(x)).filter(x => x.basename !== tp.file.title)
+<%_* 
+let candidates = app.vault.getMarkdownFiles().filter(x => "frontmatter" in app.metadataCache.getFileCache(x)).filter(x => x.basename !== tp.file.title)
 	const {update} = app.plugins.plugins["metaedit"].api
 	let alias = await tp.system.prompt("Insert Class Alias...", "", false, false)
 	candidates = candidates.filter(x => ("class" in app.metadataCache.getFileCache(x).frontmatter))

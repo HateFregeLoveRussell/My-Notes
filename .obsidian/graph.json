@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "Class",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -34,6 +34,27 @@
         "a": 1,
         "rgb": 14362921
       }
+    },
+    {
+      "query": "ECE-486-",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "ECE-481-",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "ECE-455-",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
     }
   ],
   "collapse-display": false,
@@ -46,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.27000510531222544,
+  "scale": 0.7162944201509476,
   "close": false
 }
