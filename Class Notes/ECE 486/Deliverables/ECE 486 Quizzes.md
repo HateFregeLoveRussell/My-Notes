@@ -16,7 +16,7 @@ template: {name: class-deliverable-template, version: 1}
 	- [ ] [[Class Notes/ECE 486/Deliverables/Quizzes/Quiz 1|ECE-486-Quiz1]]
 	- [ ] [[Class Notes/ECE 486/Deliverables/Quizzes/Quiz 2|ECE-486-Quiz2]]
 	- [ ] [[Class Notes/ECE 486/Deliverables/Quizzes/Quiz 3|ECE-486-Quiz3]]
-	- [ ] [[Quiz 4|ECE-486-Quiz4]]
+	- [ ] [[Class Notes/ECE 486/Deliverables/Quizzes/Quiz 4|ECE-486-Quiz4]]
 	- [ ] [[Quiz 5|ECE-486-Quiz5]]
 	- [ ] [[Quiz 6|ECE-486-Quiz6]]
 	- [ ] [[Quiz 7|ECE-486-Quiz7]]

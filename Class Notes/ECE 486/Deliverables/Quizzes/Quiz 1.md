@@ -13,7 +13,44 @@ template: {name: class-deliverable-template, version: 1}
 
 ### WBS: 
 
-- [ ] Parent Task
+- [ ] Prep
+	- [ ] Practice Qustions
+		- [x] Q2.1
+			- [x] do
+			- [x] verify
+		- [x] Q2.2
+			- [x] part a
+			- [x] part b
+			- [ ] verify
+		- [x] Q2.3
+			- [x] do
+			- [x] verify
+		- [x] Q2.4
+			- [x] do
+			- [x] verify
+		- [x] Q2.5
+			- [x] part a
+			- [x] part b
+			- [x] verify
+		- [x] Q2.6
+			- [x] do
+			- [x] verify
+		- [x] Q2.7
+			- [x] part a
+			- [x] part b
+			- [x] part c
+			- [x] verify
+		- [x] Q2.8
+			- [x] do
+			- [x] verify
+		- [x] Q2.9
+			- [x] part a
+			- [x] part b
+			- [x] verify
+		- [x] Q2.10
+			- [x] part a
+			- [x] part b
+			- [x] verify
 
 ### Notes:
 
