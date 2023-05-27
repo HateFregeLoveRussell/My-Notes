@@ -2,7 +2,7 @@
 type: Academic
 tags: 
 alias: ECE-455-Lab4
-deliverable: {type: Lab, grading: standard, weight: unknown, due: unknwon, alias: ECE-455-L4, template: {name: deliverable-obj, version: 1}}
+deliverable: {type: Lab, grading: standard, weight: 7, due: unknwon, alias: ECE-455-L4, template: {name: deliverable-obj, version: 1}}
 class: {"class-name":"Embedded Software","instructor":"Murray Dunne","medium":"In Person","start-date":"2023-05-08","university":"University of Waterloo","class-alias":"ECE-455","template":{"name":"class-uni-obj","version":1}}
 relationship: {name: deliverable-relationship-obj, version: 1}
 Sub-Deliverable: "[[ECE 455 Labs]]"
