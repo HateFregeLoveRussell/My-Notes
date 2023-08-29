@@ -7,8 +7,8 @@ relationship: <%tp.file.cursor()%>
 parent: ["[[Class-Sched]]","[[Class-Display-Portal]]","[[Class-Bibliography]]"]
 class-status: <%tp.file.cursor()%>
 status: <%tp.file.cursor()%>
-valitiy: <%tp.file.cursor()%>
-template: {name: Class-Portal, version: 2} 
+validity: <%tp.file.cursor()%>
+template: {name: class-portal-template, version: 2} 
 ---
 ### Class Description:
 

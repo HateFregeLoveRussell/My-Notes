@@ -1,1 +1,0 @@
-{link: <%tp.file.cursor()%>, alias: <%tp.file.cursor()%>, template: {name: bib-source-obj , version: 1}}

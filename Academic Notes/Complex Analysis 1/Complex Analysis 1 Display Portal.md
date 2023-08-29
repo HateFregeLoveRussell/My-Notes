@@ -6,7 +6,7 @@ class: {"class-name":"Complex Analysis 1","author":"Lars V. Ahlfors","medium":"T
 relationship: 
 status: {state: In Progress, template: {name: status-obj, version: 1}}
 validity: {state: true, template: {name: validity-obj, version: 1}}
-template: {name: class-display-portal-temnplate, version: 1}
+template: {name: class-display-portal-template, version: 1}
 ---
 
 Content Lecture Portal

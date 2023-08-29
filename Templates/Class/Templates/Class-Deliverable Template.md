@@ -9,7 +9,6 @@ status: <%tp.file.cursor()%>
 validity: <%tp.file.cursor()%>
 template: {name: class-deliverable-template, version: 1}
 ---
-
 ### WBS: 
 
 - [ ] Parent Task

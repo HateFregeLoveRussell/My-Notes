@@ -2,13 +2,35 @@
 type: Academic
 tags: [Entrynote]
 alias: Com-An-1-Portal
-class: {class-name: "Complex Analysis 1", author: "Lars V. Ahlfors", medium: Textbook, class-alias: Com-An-1, title: "Complex Analysis", edition: "Third", publisher: "McGraw-Hill Book Company", ISBN: "0-07-000657-1", length: 321, template: {name: class-textbook-obj, version: 1}}
+class: {
+  class-name: "Complex Analysis 1",
+  author: "Lars V. Ahlfors",
+  medium: "Textbook",
+  class-alias: "Com-An-1",
+  title: "Complex Analysis",
+  edition: "Third",
+  publisher: "McGraw-Hill Book Company",
+  ISBN: "0-07-000657-1",
+  length: 321,
+  template: {
+    name: "class-textbook-obj",
+    version: 1,
+    type: "object"
+  }
+}
 relationship: {name: standard-relationship-obj, version: 1}
 parent: ["[[Complex Analysis 1 Bibliography]]", "[[Complex Analysis 1 Display Portal]]"]
 class-status: {state: In Progress, template: {name: status-obj, version: 1}}
 status: {state: In Progress, template: {name: status-obj, version: 1}}
-valitiy: {state: In Progress, template: {name: status-obj, version: 1}}
-template: {name: Class-Portal, version: 2} 
+validity: {
+  state: True,
+  template: {
+    name: "validity-obj",
+    version: 1,
+    type: "object"
+  }
+}
+template: {name: class-portal-template, version: 2} 
 ---
 ### Class Description:
 ```dataview

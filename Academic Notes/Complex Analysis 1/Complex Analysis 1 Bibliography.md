@@ -7,7 +7,7 @@ relationship:
 source: []
 status: {state: In Progress, template: {name: status-obj, version: 1}}
 validity:  {state: true, template: {name: validity-obj, version: 1}}
-template: {name: class-bib-temnplate, version: 1}
+template: {name: class-bib-template, version: 1}
 ---
 
 #### Entry 1

@@ -1,1 +1,4 @@
-{state: <%tp.system.suggester(["Stub", "In Progress", "Completed"],["Stub", "In Progress", "Completed"], false, "Which state is the note in?")%>, template: {name: status-obj, version: 1}}
+---
+state: <%tp.file.cursor()%>
+template: {name: status-obj, version: 1, type: object}
+---
