@@ -50,11 +50,11 @@ template:
   version: 1
 ---
 
-## Introduction:
+#### Introduction:
 The main goal of this section is to show that despite the fact that the rationals have properties we would deem favourable in a number system such as the fact that there is a rational number between every two rational numbers, it is still inadequate as a number system for certain uses. 
 Firstly we will show that there are certain "gaps" within the rational number system despite the property mentioned above. 
 
-## Proof that there exists no rational number $p$ such that $p^2 = 2$:
+#### Proof that there exists no rational number $p$ such that $p^2 = 2$:
 - Assume that there is such a number $\large p$ such that $\large{p^2 = 2}$.
 - Since $p$ is rational we know that  $\large{p = \frac{m}{n}, \space\space m,n \in \Bbb{z}}$  
 - $\large{m \space \text{and} \space n}$ cannot both be even as $\large{\frac{2k}{2j} = \frac{k}{j}}$ where $\large{k,j}$ are odd
@@ -67,7 +67,7 @@ Firstly we will show that there are certain "gaps" within the rational number sy
 
 Although this proof shows that there are such "gaps" in the rational numbers it struggles to give us much insight about their nature, the next proof will provide us with this insight
 
-## Insightful Proof About the Gaps in the Rationals:
+#### Insightful Proof About the Gaps in the Rationals:
 
 - Let $\large{A}$ be the set of all positive rationales such that $\large{p^2 \lt 2}$ 
 - Let $\large{B}$ be the set of all positive rationales such that $\large{p^2 > 2}$ 
