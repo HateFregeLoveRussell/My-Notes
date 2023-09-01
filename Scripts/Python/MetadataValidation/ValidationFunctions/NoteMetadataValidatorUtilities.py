@@ -115,7 +115,7 @@ def validate_single_source_field(value):
                 'class-alias': lambda value: validate_alias_field(value)})
         case ('source-tbsection-obj', 1):
             validator = validator.create_validator({
-                'type': lambda value: validate_expected_value(value, ['lecture']),
+                'type': lambda value: validate_expected_value(value, ['tbsection']),
                 'date': lambda value: validate_datetime(value),
                 'number': lambda value: basic_type_check(value, int),
                 'source-alias': lambda value: validate_alias_field(value),

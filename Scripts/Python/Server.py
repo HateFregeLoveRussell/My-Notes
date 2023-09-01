@@ -5,6 +5,7 @@ from NoteBookKeepingUtilities import updateNoteFrame
 from NoteMetadataFuzzymatching import findfuzzMatchedTemplate
 from InsertTemplate import getTermplateContent
 from MetadataValidation.NoteMetadataValidator import validate_template
+from pyomd import Notes
 
 app = Flask(__name__)
 
@@ -51,11 +52,9 @@ def validateNote():
         rtrn_dict = validate_template(notes, data['path'])
         return jsonify(rtrn_dict)
     except Exception as e:
+        print(str(e))
         return jsonify({'error': str(e)}), 400
 
 if __name__ == '__main__':
-    # notes = updateNoteFrame()
-    # print(notes)
-    # path = Path('../../Academic Notes/Complex Analysis 1/The Complex Numbers.md')
-    # print(validate_template(notes, path))
+
     app.run()

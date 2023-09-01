@@ -42,6 +42,7 @@ def get_frontmatter_str(path):
             f.seek(startpos)
             content = f.read(endpos + delimiter_length - startpos).decode('utf-8')
             mmapped_f.close()
+            print(content)
             return content
 def get_content_str(path):
     assert path.exists()
@@ -60,7 +61,7 @@ def get_content_str(path):
                 return content
             endpos = mmapped_f.find(delimiter, startpos + delimiter_length)
             if endpos == -1:
-                print('funny')
+                # print('funny')
                 return ''
             f.seek(endpos + delimiter_length)
             content = f.read().decode('utf-8')

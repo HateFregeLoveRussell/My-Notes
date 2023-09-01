@@ -53,9 +53,9 @@ def check_for_updates(noteDict: dict):
                 # update entry if edit times don't match
                 #print(f"update found in entry: {path_obj}, Discrepancy: {datetime.fromtimestamp(path_obj.stat().st_mtime)}, {noteDict[path_obj].mtime}")
                 noteDict[path_obj] = construct_note(path_obj)
-                print(noteDict[path_obj].content)
-                print(path_obj)
-                print(noteDict[path_obj])
+                #print(noteDict[path_obj].content)
+                #print(path_obj)
+                #print(noteDict[path_obj])
         else:  # dir entry not in mem => new note
             #print(f"New entry found at: {path_obj}")
             noteDict[path_obj] = construct_note(path_obj)
