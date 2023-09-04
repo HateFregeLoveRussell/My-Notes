@@ -1,4 +1,4 @@
-from urllib import parse
+from urllib.parse import urlparse
 from datetime import datetime
 from re import match
 def validate_expected_value(value, desired_value):
@@ -11,7 +11,7 @@ def validate_through_list(value, list):
 
 def validate_url(value):
     try:
-        result = parse(value)
+        result = urlparse(value)
         return True
     except ValueError:
         return ["URL value is not parseable"]
