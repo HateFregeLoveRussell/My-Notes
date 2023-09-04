@@ -83,9 +83,8 @@ def validate_source_field(value):
             source = source.replace("'", "\"")
             source = loads(source)
             result = validate_single_source_field(source)
-            if not isinstance(result, bool):
-                return_messages.append(result)
-        if not return_messages:
+            return_messages.append(result)
+        if all(entry == True for entry in return_messages):
             return_messages = True
     else:
         return_messages = validate_single_source_field(value)
@@ -127,13 +126,13 @@ def validate_single_source_field(value):
                 'number': lambda value: basic_type_check(value, int),
                 'source-alias': lambda value: validate_alias_field(value),
                 'class-alias': lambda value: validate_alias_field(value)})
-        case ('source-non-standard-pyhelp'):
+        case ('source-non-standard-pyhelp', 1):
             validator = validator.create_validator({
                 'type': lambda value: validate_expected_value(value, ['non-standard-pyhelp']),
                 'date': lambda value: validate_datetime(value),
                 'python-version': lambda value: basic_type_check(value, str),
                 'source-alias': lambda value: validate_alias_field(value)})
-        case ('source-webarticle-obj'):
+        case ('source-webarticle-obj', 1):
             validator = validator.create_validator({
                 'type': lambda value: validate_expected_value(value, ['web-article']),
                 'date-viewed': lambda value: validate_datetime(value),
@@ -141,7 +140,7 @@ def validate_single_source_field(value):
                 'url': lambda value: validate_url(value),
                 'source-alias': lambda value: validate_alias_field(value)})
         case _:
-            return ["Template Name not recognized by Source Object"]
+            return [f"Template Name not recognized by Source Object got {template['name']}"]
 
     result = validator.validate(value)
     return True if isinstance(result, bool) else result[1]
