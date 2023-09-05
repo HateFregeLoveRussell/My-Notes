@@ -1,11 +1,11 @@
 from flask import Flask, request, jsonify
 
-from NoteMetadataFuzzymatching import fuzzyMatch
 from NoteBookKeepingUtilities import updateNoteFrame
-from NoteMetadataFuzzymatching import findfuzzMatchedTemplate
+from NoteMetadataFuzzymatching import findfuzzMatchedTemplate, findfuzzMatchedSourceObjByAlias, fuzzyMatch
 from InsertTemplate import getTermplateContent
 from MetadataValidation.NoteMetadataValidator import validate_template
 from pyomd import Notes
+from pathlib import Path
 
 app = Flask(__name__)
 
@@ -21,6 +21,16 @@ def fuzzy():
     except Exception as e:
         return jsonify({'error': str(e)}), 400
 
+@app.route('/fuzzyMatch/SearchSourcesByAlias', methods = ['POST'])
+def fuzzyMatchSourceOnAlias():
+    try:
+        data = request.json
+        notes = updateNoteFrame()
+        rtrn_json = findfuzzMatchedSourceObjByAlias(notes, data['value'], data['bounds']).to_json(orient='index')
+        print(rtrn_json)
+        return rtrn_json
+    except Exception as e:
+        return jsonify({'error': str(e)}), 400
 
 @app.route('/fuzzyMatch/templateSearch', methods=['POST'])
 def fuzzyTemplateSearch():
@@ -49,6 +59,8 @@ def validateNote():
     try:
         data = request.json
         notes = updateNoteFrame()
+        print("Notes Constructed, Validating...")
+        print(f"Path {data['path']}")
         rtrn_dict = validate_template(notes, data['path'])
         return jsonify(rtrn_dict)
     except Exception as e:
@@ -56,5 +68,4 @@ def validateNote():
         return jsonify({'error': str(e)}), 400
 
 if __name__ == '__main__':
-
     app.run()
