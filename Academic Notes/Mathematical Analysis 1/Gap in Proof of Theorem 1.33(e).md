@@ -2,7 +2,7 @@
 type: Thinking
 tags: [problem]
 relationship: {name: standard-relationship-obj, version: 1}
-parent: "[[Properties of the Real Field]]"
+parent: "[[Conjugates and Absolute Values#Theorem 1.33]]"
 status: {
   state: "In Progress",
   template: {
@@ -22,4 +22,4 @@ validity: {
 template: {name: premise-template, version: 1}
 ---
 #### Introduction: 
-Most Gaps from the proof presented from the book to the one presented in the note have been resolved. The only remaining major gap to my knowledge is the proof of the identity $\large{b^n - a^n  = (b-a)(b^{n-1} + b^{n-2}a + \ldots + a^{n-1})}$ and it's implication of the inequality $\large{b^n - a^n < (b-a)nb^{n-1} }$
+One gap that has yet to be eliminated in the proof for [[Conjugates and Absolute Values#Theorem 1.33|Theorem 1.33(e)]] is the claim that $\large{\operatorname{Re}(z) \le |z|}$. We will attempt to resolve this gap below. 
