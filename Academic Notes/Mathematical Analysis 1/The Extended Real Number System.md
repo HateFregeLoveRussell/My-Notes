@@ -36,7 +36,7 @@ source: {
 relationship: {name: standard-relationship-obj, version: 1}
 friends: "[[The Real Field]]"
 status: {
-  state: "In Progress",
+  state: "Completed",
   template: {
     name: "status-obj",
     version: 1,
