@@ -36,7 +36,7 @@ source: {
 relationship: {name: standard-relationship-obj, version: 1}
 friends: ["[[Conjugates and Absolute Values]]", "[[The Complex Field]]"] 
 status: {
-  state: "In Progress",
+  state: "Completed",
   template: {
     name: "status-obj",
     version: 1,
@@ -57,7 +57,7 @@ template: {name: class-note-template, version: 1}
 #### Notation:
 Let $\large{x_1,\ldots ,x_n}$ be $\large n$ [[The Complex Field#Definition 1.24|Complex Numbers]] we write $$x_1 + x_2 + \ldots + x_n = \sum_{j=1}^{n}{x_j} $$
 #### Theorem 1.35
-If $\large{a_1,\ldots ,a_n}$ and $\large{b_1,\ldots ,b_n}$ are [[The Complex Field#Definition 1.24|Complex Numbers]] then $$\left \vert \sum^n_{j=1}a_j\overline b_j \right \vert \le \sum_{j=1}^n\left \vert a_j \right \vert + \sum ^n _{j = 1}\left \vert b_j \right \vert$$
+If $\large{a_1,\ldots ,a_n}$ and $\large{b_1,\ldots ,b_n}$ are [[The Complex Field#Definition 1.24|Complex Numbers]] then $$\left \vert \sum^n_{j=1}a_j\overline b_j \right \vert ^2 \le \sum_{j=1}^n\left \vert a_j \right \vert ^2   \sum ^n _{j = 1}\left \vert b_j \right \vert^2$$
 ##### Proof: 
 We will denote a few quantities to make our arithmetic easier. Additionally, note that all sums in this proof range from index $\large 1$ to $\large n$.
 
