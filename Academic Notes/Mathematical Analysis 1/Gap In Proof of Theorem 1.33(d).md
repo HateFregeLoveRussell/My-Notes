@@ -36,7 +36,7 @@ Assume $\large{a^n > 0}$, combine this with the fact $\large{a>0}$ and [[Propert
 By induction then the proof is complete
 
 
-#### Theorem: 
+#### Theorem 1: 
 For any $\large{a,b \in \Bbb R}$ $\large{a>0,b>0, a>b}$ then $\large{a^n > b^n}$
 
 ##### Proof: 
@@ -49,7 +49,7 @@ Assume $\large{a^n > b^n}$ we know that $\large{a>b>0}$ applying the latter ineq
 By Induction the proof is complete
 
 
-#### Theorem: 
+#### Theorem 2: 
 For any $\large{a,b \in \Bbb R}$ $\large{a>b>0}$ then $\large{a^\frac{1}{n}> b^\frac{1}{n}}$.
 
 ##### Proof:
