@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 
 from NoteBookKeepingUtilities import updateNoteFrame
-from NoteMetadataFuzzymatching import findfuzzMatchedTemplate, findfuzzMatchedSourceObjByAlias, fuzzyMatch
+from NoteMetadataFuzzymatching import findfuzzMatchedTemplate, findFuzzMatchedSourceObjByAlias, fuzzyMatch
 from InsertTemplate import getTermplateContent
 from MetadataValidation.NoteMetadataValidator import validate_template
 from pyomd import Notes
@@ -26,7 +26,7 @@ def fuzzyMatchSourceOnAlias():
     try:
         data = request.json
         notes = updateNoteFrame()
-        rtrn_json = findfuzzMatchedSourceObjByAlias(notes, data['value'], data['bounds']).to_json(orient='index')
+        rtrn_json = findFuzzMatchedSourceObjByAlias(notes, data['value'], data['bounds']).to_json(orient='index')
         print(rtrn_json)
         return rtrn_json
     except Exception as e:
