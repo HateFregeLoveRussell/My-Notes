@@ -37,7 +37,7 @@ By induction then the proof is complete
 
 
 #### Theorem 1: 
-For any $\large{a,b \in \Bbb R}$ $\large{a>0,b>0, a>b}$ then $\large{a^n > b^n}$
+For any $\large{a,b \in \Bbb R}$ $\large{a>0,b>0, a>b}$ then $\large{a^n > b^n}$ when $\large{n > 0}$
 
 ##### Proof: 
 ###### H(2): Induction Hypothesis
