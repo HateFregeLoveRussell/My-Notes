@@ -1,7 +1,7 @@
 ---
 type: Academic
 tags: []
-aliases:
+alias:
   - Math-An-1-HolesInTheRationals
 class:
   class-name: Mathematical Analysis 1

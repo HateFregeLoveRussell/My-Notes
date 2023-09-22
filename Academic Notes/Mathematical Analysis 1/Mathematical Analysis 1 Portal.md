@@ -1,50 +1,50 @@
 ---
 type: Academic
-tags: [Entrynote]
+tags:
+  - Entrynote
 alias: Math-An-1-Portal
-class: {
-  class-name: "Mathematical Analysis 1",
-  author: "Walter Rudin",
-  medium: "Textbook",
-  class-alias: "Math-An-1",
-  title: "Principles Of Mathematical Analysis",
-  edition: "Third",
-  publisher: "McGraw-Hill Book Company",
-  ISBN: "978-0-07-054235-8",
-  length: 334,
-  template: {
-    name: "class-textbook-obj",
-    version: 1,
-    type: "object"
-  }
-}
-relationship: {name: standard-relationship-obj, version: 1}
-parent: ["[[Class-Sched]]","[[Class-Display-Portal]]","[[Class-Bibliography]]"]
-class-status: {
-  state: "In Progress",
-  template: {
-    name: "status-obj",
-    version: 1,
-    type: "object"
-  }
-}
-status: {
-  state: "Completed",
-  template: {
-    name: "status-obj",
-    version: 1,
-    type: "object"
-  }
-}
-validity: {
-  state: true,
-  template: {
-    name: "validity-obj",
-    version: 1,
-    type: "object"
-  }
-}
-template: {name: class-portal-template, version: 2} 
+class:
+  class-name: Mathematical Analysis 1
+  author: Walter Rudin
+  medium: Textbook
+  class-alias: Math-An-1
+  title: Principles Of Mathematical Analysis
+  edition: Third
+  publisher: McGraw-Hill Book Company
+  ISBN: 978-0-07-054235-8
+  length: 334
+  template:
+    name: class-textbook-obj
+    version: 1
+    type: object
+relationship:
+  name: standard-relationship-obj
+  version: 1
+parent:
+  - "[[Class-Sched]]"
+  - "[[Class-Display-Portal]]"
+  - "[[Class-Bibliography]]"
+class-status:
+  state: In Progress
+  template:
+    name: status-obj
+    version: 1
+    type: object
+status:
+  state: Completed
+  template:
+    name: status-obj
+    version: 1
+    type: object
+validity:
+  state: true
+  template:
+    name: validity-obj
+    version: 1
+    type: object
+template:
+  name: class-portal-template
+  version: 2
 ---
 ### Class Description:
 ```dataview
