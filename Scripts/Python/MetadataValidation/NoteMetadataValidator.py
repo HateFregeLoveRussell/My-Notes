@@ -33,6 +33,8 @@ def validate_template(notes, path):
             validator = class_dictionary_template_validator()
         case ('class-bib-template', 1):
             validator = class_bibliography_template_validator()
+        case ('class-textbook-practice-problem', 1):
+            validator = class_textbook_problem_validator()
         case _:
             return["Template Not Recognized"]
 
@@ -143,5 +145,20 @@ def class_bibliography_template_validator():
                                                          'relationship': lambda value: validate_relationship_field(
                                                              value),
                                                          'source': lambda value: validate_source_field(value),
+                                                         'class': lambda value: validate_class_field(value)})
+    return validator
+
+
+def class_textbook_problem_validator():
+    validator = DictValidatorFactory().create_validator(field_validators=
+                                                        {'status': lambda value: validate_status_field(value),
+                                                         'validity': lambda value: validate_validity_field(value),
+                                                         'alias': lambda value: validate_alias_field(value),
+                                                         'tags': lambda value: validate_expected_value(value, [
+                                                             'practice']),
+                                                         'type': lambda value: validate_expected_value(value,
+                                                                                                       ["Academic"]),
+                                                         'relationship': lambda value: validate_relationship_field(
+                                                             value),
                                                          'class': lambda value: validate_class_field(value)})
     return validator
