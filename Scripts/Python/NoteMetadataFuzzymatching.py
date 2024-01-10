@@ -68,7 +68,6 @@ def findFuzzMatchedSourceObjByAlias(df: DataFrame, value, indexRange=(0, 5)):
     value = value.replace('-', ' ')
 
     notes = df['note']
-
     # drop entries that are from Templates Folder
     boolean_mask = [not path.is_relative_to('..\..\Templates') for path in notes.index]
     notes = notes[boolean_mask]
@@ -82,7 +81,8 @@ def findFuzzMatchedSourceObjByAlias(df: DataFrame, value, indexRange=(0, 5)):
     notes = notes[boolean_mask]
 
     # drop entries if they are not valid source fields
-    boolean_mask = [validate_source_field(entry) == True for entry in notes]
+    boolean_mask = [validate_source_field(entry) == True and isinstance(validate_source_field(entry), bool) for entry in notes]
+
     notes = notes[boolean_mask]
 
     # linearize series by turning array(n) entries into n entries

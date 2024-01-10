@@ -78,7 +78,7 @@ def validate_deliverable_field(value):
 
 def validate_source_field(value):
     return_messages = []
-    if isinstance(value, list):
+    if isinstance(value, list) and value != ["<%tp.file.cursor()%>"]:
         for source in value:
             source = source.replace("'", "\"")
             source = loads(source)
@@ -92,11 +92,13 @@ def validate_source_field(value):
 
 
 def validate_single_source_field(value):
-    if value is None:
+    if value is None or (value == ["<%tp.file.cursor()%>"]):
         return ["Field is Empty"]
     if 'template' not in value:
         return ['No Template Field Found']
+
     template = value['template']
+
     validator = DictValidatorFactory()
     match (template['name'], template['version']):
         case ('source-video-obj', 1):
