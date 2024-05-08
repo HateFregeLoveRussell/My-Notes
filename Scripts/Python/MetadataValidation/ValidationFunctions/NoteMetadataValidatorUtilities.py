@@ -2,7 +2,8 @@ from json import loads
 from ..NoteMetaDataValidatorClasses import DictValidatorFactory
 from ..ValidationFunctions.AtomicValidationUtilities import (validate_url, validate_expected_value,
                                                              validate_through_list, basic_type_check,
-                                                             validate_ISBN, validate_datetime, validate_alias_field)
+                                                             validate_ISBN, validate_datetime, validate_alias_field,
+                                                             validate_list_of_type)
 
 
 def validate_status_field(value):
@@ -164,7 +165,7 @@ def validate_class_field(value):
         case ('class-textbook-obj', 1):
             validator = validator.create_validator({
                 'class-name': lambda value: basic_type_check(value, str),
-                'author': lambda value: basic_type_check(value, str),
+                'author': lambda value: validate_list_of_type(value, str),
                 'medium': lambda value: validate_expected_value(value, "Textbook"),
                 'class-alias': lambda value: validate_alias_field(value),
                 'title': lambda value: basic_type_check(value, str),

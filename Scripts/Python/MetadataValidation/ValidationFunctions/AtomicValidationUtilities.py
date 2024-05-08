@@ -70,3 +70,13 @@ def validate_alias_field(value):
     pattern = r'^[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*$'
     return ["The chosen Alias is not a dash-seperated string of words"] if match(pattern, value) is None else True
 
+
+def validate_list_of_type(value,typ):
+    print('function called')
+    if type(value) is typ:
+        return True
+    elif type(value) is list:
+        for entry in value:
+            if type(entry) is not typ:
+                return [f"Entry {entry} in list not of type {typ}]"]
+        return True
